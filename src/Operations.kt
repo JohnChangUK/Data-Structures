@@ -4,6 +4,7 @@
 
 fun main(args:Array<String>){
 
+    println("Calculator")
     print("Enter n1:")
     var n1:Float= readLine()!!.toFloat()
 
