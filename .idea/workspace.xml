@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NestedForLoop.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NestedForLoop.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NestedForLoop.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -71,6 +71,16 @@
               <folding>
                 <element signature="n#!!doc;n#main#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlLoop.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ControlLoop.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/LogicCondition.kt" />
         <option value="$PROJECT_DIR$/src/SimpleForLoop.kt" />
         <option value="$PROJECT_DIR$/src/NestedForLoop.kt" />
+        <option value="$PROJECT_DIR$/src/ControlLoop.kt" />
       </list>
     </option>
   </component>
@@ -202,20 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.NestedForLoopKt">
-    <configuration default="false" name="OperationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="OperationsKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinOverJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ControlLoopKt">
     <configuration default="false" name="PrioritiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PrioritiesKt" />
@@ -258,6 +256,19 @@
     <configuration default="false" name="NestedForLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NestedForLoopKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinOverJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ControlLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ControlLoopKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -473,19 +484,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.OperationsKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.SimpleForLoopKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.NestedForLoopKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.SimpleForLoopKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.NestedForLoopKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ControlLoopKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.NestedForLoopKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.SimpleForLoopKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.OperationsKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ControlLoopKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.NestedForLoopKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.SimpleForLoopKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -553,8 +564,14 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/ControlLoop.kt</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -674,6 +691,14 @@
           <folding>
             <element signature="n#!!doc;n#main#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ControlLoop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
