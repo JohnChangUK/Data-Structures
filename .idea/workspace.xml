@@ -13,16 +13,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ControlLoop.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ControlLoop.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Array.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scope.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scope.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scope.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarClass.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CarClass.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="29" column="58" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -157,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/functionOverload.kt" />
         <option value="$PROJECT_DIR$/src/functionPolymorphism.kt" />
         <option value="$PROJECT_DIR$/src/Scope.kt" />
+        <option value="$PROJECT_DIR$/src/CarClass.kt" />
       </list>
     </option>
   </component>
@@ -235,20 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ScopeKt">
-    <configuration default="false" name="SetsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SetsKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinOverJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.CarClassKt">
     <configuration default="false" name="FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
@@ -291,6 +279,19 @@
     <configuration default="false" name="ScopeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ScopeKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinOverJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CarClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CarClassKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -506,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.SetsKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.FunctionsKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.FunctionOverloadKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.FunctionPolymorphismKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ScopeKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.FunctionsKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.FunctionOverloadKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.FunctionPolymorphismKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ScopeKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.CarClassKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ScopeKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.FunctionPolymorphismKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.FunctionOverloadKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.FunctionsKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.SetsKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.CarClassKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ScopeKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.FunctionPolymorphismKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.FunctionOverloadKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.FunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -881,6 +882,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="29" column="58" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding />
         </state>
       </provider>
