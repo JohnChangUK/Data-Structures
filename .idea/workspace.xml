@@ -15,16 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Operations.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Operations.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Priorities.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Priorities.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KotlinCollects.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KotlinCollects.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KotlinCollects.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sets.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sets.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/ArrayList.kt" />
         <option value="$PROJECT_DIR$/src/HashMap.kt" />
         <option value="$PROJECT_DIR$/src/KotlinCollects.kt" />
+        <option value="$PROJECT_DIR$/src/Sets.kt" />
       </list>
     </option>
   </component>
@@ -234,20 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinCollectsKt">
-    <configuration default="false" name="ControlLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ControlLoopKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinOverJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.SetsKt">
     <configuration default="false" name="ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArrayKt" />
@@ -290,6 +278,19 @@
     <configuration default="false" name="KotlinCollectsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="KotlinCollectsKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinOverJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SetsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SetsKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -505,19 +506,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.ControlLoopKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ArrayKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ArrayListKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.HashMapKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.KotlinCollectsKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.ArrayKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ArrayListKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.HashMapKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.KotlinCollectsKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.SetsKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.KotlinCollectsKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.HashMapKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ArrayListKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ArrayKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.ControlLoopKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.SetsKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.KotlinCollectsKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.HashMapKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ArrayListKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -822,6 +823,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sets.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
