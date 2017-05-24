@@ -1,9 +1,13 @@
-fun main(args:Array<String>){
+fun main(args:Array<String>) {
 
-    for (count in 1..10) {
-        if (count == 4) {
-            continue
+    loop@ for (count in 1..5) {
+
+        for (count2 in 1..10) {
+            if (count2 == 2) {
+                break@loop
+            }
         }
-        println("Count: $count")
     }
+        println("Loop Done")
+
 }
