@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Singleton.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Singleton.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TryCatch.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TryCatch.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/CallPackage.kt" />
         <option value="$PROJECT_DIR$/src/NestedClass.kt" />
         <option value="$PROJECT_DIR$/src/Singleton.kt" />
+        <option value="$PROJECT_DIR$/src/TryCatch.kt" />
       </list>
     </option>
   </component>
@@ -256,20 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SingletonKt">
-    <configuration default="false" name="GenericKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="GenericKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KotlinOverJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TryCatchKt">
     <configuration default="false" name="ExtensionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
@@ -312,6 +310,19 @@
     <configuration default="false" name="SingletonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SingletonKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KotlinOverJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TryCatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TryCatchKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -527,19 +538,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.GenericKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ExtensionsKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.CallPackageKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.NestedClassKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.SingletonKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.ExtensionsKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.CallPackageKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.NestedClassKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.SingletonKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.TryCatchKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.SingletonKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.NestedClassKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.CallPackageKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ExtensionsKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.GenericKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.TryCatchKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.SingletonKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.NestedClassKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.CallPackageKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ExtensionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +572,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="201" y="23" width="1400" height="917" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -572,7 +582,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -644,14 +654,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/functionOverload.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/functionPolymorphism.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1039,8 +1041,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Singleton.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TryCatch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
